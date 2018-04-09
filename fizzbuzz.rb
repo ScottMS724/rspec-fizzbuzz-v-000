@@ -3,4 +3,6 @@ def fizzbuzz(number)
     return "Fizz"
   elsif (number % 5 = 0)
     return "Buzz"
+  elsif (number % 15 = 0)
+    return "FizzBuzz"
 end
